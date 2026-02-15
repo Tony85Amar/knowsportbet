@@ -31,4 +31,18 @@ button {
   padding: 10px 20px;
   margin: 10px;
   cursor: pointer;
+  .cta-button {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.cta-button:hover {
+  background-color: #005fa3;
+}
 }

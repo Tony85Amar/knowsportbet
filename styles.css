@@ -3,12 +3,12 @@ body {
   margin: 0;
   padding: 0;
   background: #f9f9f9;
-    font-size: 18px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
 header {
-  background: teal;
+  background: #006666; /* darker teal for contrast */
   color: white;
   padding: 20px;
   text-align: center;
@@ -18,6 +18,12 @@ nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -31,7 +37,9 @@ button {
   padding: 10px 20px;
   margin: 10px;
   cursor: pointer;
-  .cta-button {
+}
+
+.cta-button {
   display: inline-block;
   background-color: #0077cc;
   color: white;
@@ -45,4 +53,11 @@ button {
 .cta-button:hover {
   background-color: #005fa3;
 }
+
+footer {
+  background: #006666;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
